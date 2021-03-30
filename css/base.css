@@ -1,0 +1,165 @@
+/* Kalibrierung */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Verdana, sans-serif;	
+	background: #666;
+}
+
+body > * {
+	width: 100%;
+	max-width: 1200px;
+	min-width: 600px;
+		
+	margin: 5px auto;
+	
+	background: #eee;
+}
+
+body > header {
+	position: relative;
+	
+	height: 200px;
+	
+	background: url("../images/header4.jpg");
+	
+	background-size: cover;
+	background-position: center -250px;
+}
+
+body > header > h1 {
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+	
+	background: rgba(255,255,255, 0.75);
+	padding: 5px 15px;
+	border-radius: 5px;
+	/*text-shadow: 2px 2px 5px red;*/
+	box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.6);
+}
+
+
+body > main > * {
+	float: left;
+	
+	background: #eee;
+	margin: 5px 0px;
+	
+	
+}
+
+body > main {
+	
+	min-height: calc(100vh - 230px - 20px);
+	
+}
+
+body > main > section {
+	width: calc(100% - 210px - 40px);
+	
+	padding: 20px;
+}
+
+form#login {
+	width: 300px;
+	
+	margin-top: 15px;
+}
+form#login > * {
+	display: block;
+	width: 100%;
+}
+form#login > input[type=text],
+form#login > input[type=password] {
+	
+	font-size: 1.2em;
+	font-family: Verdana, sans-serif;
+	
+	padding: 5px;
+	margin-bottom: 20px;	
+	
+	border: 2px solid #333;
+	border-radius: 3px;
+}
+form#login > input[type=submit] {
+	padding: 5px;
+	color: brown;
+    height: 40px;
+	font-size: 1.2em;
+	font-family: Verdana, sans-serif;
+	
+	background: #eee;
+	
+	border: 2px solid #333;
+	border-radius: 3px;
+	
+	margin-bottom: 5px;
+}
+form#login > a {
+	display: inline;
+	width: initial;
+	float: right;
+			
+	text-decoration: none;
+	text-align: right;
+	
+	color: darkblue;
+}
+
+body > main > aside {
+	margin-left: 10px;
+	width: 200px;
+}
+
+body > footer {
+	min-height: 30px;
+	height: 80px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.footer_color{
+    padding-top:20px;
+    padding-bottom:20px;
+    background: #4b4b4b;
+    color: #fff;
+}
+
+
+.footer p {
+	color: #929292;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.footer ul{
+	list-style: none;
+	text-align: center;
+}
+.footer li , .person li{
+	display: inline-block;
+	padding: 0 10px;
+}
+.footer a, .person a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+.footer a:hover , .person a:hover {
+	color: #BC0C4E;
+    transition: all .5s ease-in-out;
+	font-size: 18px;
+}
+
+
+
+
